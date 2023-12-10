@@ -1,0 +1,34 @@
+\usepackage[]{svg}
+\usepackage[]{pdfpages}
+\usepackage{multirow}
+\usepackage{tabularx}
+
+
+\newcounter{myfigure}
+\pretocmd{\figure}{\stepcounter{myfigure}}{}{}
+\renewcommand{\thefigure}{\arabic{myfigure}}
+\newcounter{mytable}
+\pretocmd{\table}{\stepcounter{mytable}}{}{}
+\renewcommand{\thetable}{\arabic{mytable}}
+
+\renewcommand{\theequation}{\arabic{equation}}
+
+\setenumerate[1]{label={ \arabic*)}}
+\NewBibliographyString{accessmode}
+\DeclareFieldFormat{url}{\bibstring{accessmode}\addcolon\space\url{#1}}
+\DeclareFieldFormat{title}{#1}
+\DefineBibliographyStrings{russian}{
+accessmode={Режим доступа:},
+urlseen={дата обращения:}
+}
+\captionsetup[table]{justification=raggedright,singlelinecheck=off}
+\renewcommand\labelitemi{---}
+
+\usepackage{graphicx}
+\newcommand{\img}[3] {
+	\begin{figure}[h!]
+		\center{\includegraphics[height=#1]{inc/img/#2}}
+		\caption{#3}
+		\label{img:#2}
+	\end{figure}
+}

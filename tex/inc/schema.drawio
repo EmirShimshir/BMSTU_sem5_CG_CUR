@@ -1,0 +1,160 @@
+<mxfile host="Electron" modified="2023-11-06T11:32:01.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="tKbpAGHAuzdrRXWW53oT" version="21.7.5" type="device">
+  <diagram id="HmvC9kez2Muzj7afJFba" name="l">
+    <mxGraphModel dx="875" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3KMwmlThHUORwYY-1hUR-6" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;fontSize=9;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="102.5" y="140" as="sourcePoint" />
+            <mxPoint x="102.5" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-8" target="3KMwmlThHUORwYY-1hUR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-8" value="Цикл по моделям сцены" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-9" target="3KMwmlThHUORwYY-1hUR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-9" value="Цикл по полигонам &lt;br&gt;модели" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="210.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-10" value="Начало" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="10" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-12" target="3KMwmlThHUORwYY-1hUR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-12" value="Обновление параметров модели" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="140.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-13" target="3KMwmlThHUORwYY-1hUR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-13" value="Применить к полигону аффинные преобразования" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-14" target="3KMwmlThHUORwYY-1hUR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-14" value="Привести полигон к пространству камеры" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-15" target="3KMwmlThHUORwYY-1hUR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-15" value="Произвести перспективную проекцию" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="3KMwmlThHUORwYY-1hUR-16" target="hiM7Ijf9EzaJYmd8NyTh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KMwmlThHUORwYY-1hUR-16" value="Произвести отбрасывание нелицевых граней&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-1" value="А" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="75" y="559.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-2" target="hiM7Ijf9EzaJYmd8NyTh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-2" value="А" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="285" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-3" value="Цикл по Y координате полигона" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="210.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-4" value="Произвести расчет констант для интерполяции" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-5" target="hiM7Ijf9EzaJYmd8NyTh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-5" value="Цикл по X координате полигона" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-6" target="hiM7Ijf9EzaJYmd8NyTh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-6" value="Интерполировать координаты пикселя полигона" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-7" target="hiM7Ijf9EzaJYmd8NyTh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-7" value="Интерполировать вектор нормали пикселя полигона" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-8" target="hiM7Ijf9EzaJYmd8NyTh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-8" value="Произвести расчет интенсивности пикселя полигона" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hiM7Ijf9EzaJYmd8NyTh-9" target="h-r1W2OHv63f8sWNhm3v-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiM7Ijf9EzaJYmd8NyTh-9" value="Установить характеристики пикселя в Z-буффер" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h-r1W2OHv63f8sWNhm3v-1" target="h-r1W2OHv63f8sWNhm3v-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-1" value="&lt;span style=&quot;font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Конец цикла по X координате полигона&lt;/span&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontColor=default;fillColor=default;direction=west;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="460" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="1" target="h-r1W2OHv63f8sWNhm3v-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-5" value="Конец" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-6" value="Б" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="285" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h-r1W2OHv63f8sWNhm3v-7" target="h-r1W2OHv63f8sWNhm3v-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-7" value="Б" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="495" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h-r1W2OHv63f8sWNhm3v-9" target="h-r1W2OHv63f8sWNhm3v-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-9" value="&lt;span style=&quot;font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Конец цикла по Y координате полигона&lt;/span&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontColor=default;fillColor=default;direction=west;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h-r1W2OHv63f8sWNhm3v-10" target="h-r1W2OHv63f8sWNhm3v-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-10" value="Конец цикла&amp;nbsp;по полигонам&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;модели" style="shape=loopLimit;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontColor=default;fillColor=default;direction=west;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h-r1W2OHv63f8sWNhm3v-11" target="h-r1W2OHv63f8sWNhm3v-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-11" value="Конец цикла по моделям сцены" style="shape=loopLimit;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontColor=default;fillColor=default;direction=west;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-r1W2OHv63f8sWNhm3v-12" value="Отрисовать буфер кадра" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

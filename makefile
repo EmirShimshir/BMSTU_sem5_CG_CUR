@@ -24,10 +24,8 @@ run:
 
 .PHONY: drawio
 drawio:
-	cd tex/inc && draw.io -x -f pdf --crop -p 0 -o img/l.pdf  lab_01_schema.drawio
-	cd tex/inc && draw.io -x -f pdf --crop -p 1 -o img/dl.pdf lab_01_schema.drawio
-	cd tex/inc && draw.io -x -f pdf --crop -p 2 -o img/rdl.pdf lab_01_schema.drawio
-	cd tex/inc && draw.io -x -f pdf --crop -p 3 -o img/rdl_cache.pdf lab_01_schema.drawio
+	cd tex/inc && draw.io -x -f pdf --crop -p 1 -o img/schema-z-buffer.pdf schema.drawio
+
 
 .PHONY: run_prog
 run_prog:

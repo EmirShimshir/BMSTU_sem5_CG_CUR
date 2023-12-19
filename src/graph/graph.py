@@ -37,4 +37,7 @@ def draw():
 
 if __name__ == "__main__":
     # wave()
-    draw()
+    # draw()
+
+    for i in range(len(x)):
+        print(x[i], y_fong[i])
